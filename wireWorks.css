@@ -91,3 +91,68 @@ body {
     width: 100%;
     display: block;
 }
+
+.banner-info-box {
+    background-color: var(--color-orange);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.banner-info-box p {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+.dark-bg {
+    background-color: var(--color-dark-grey);
+    color: var(--color-text-light);
+    padding: 60px 0;
+}
+
+.dark-bg-2 {
+    background-color: var(--color-dark-grey);
+    color: var(--color-text-light);
+    padding: 40px 0 80px;
+    border-top: 1px solid #4a4a4a;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature-item, .content-item {
+    flex-basis: 25%;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.icon-wrap {
+    display: block;
+    font-size: 3em;
+    background-color: var(--color-orange);
+    margin-bottom: 10px;
+    width: 100px;
+    margin: auto;
+}
+
+.feature-item h3, .content-item h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.feature-item p {
+    font-size: 0.85em;
+}
